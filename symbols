@@ -289,6 +289,7 @@ libgit2-glib-1.0.so.0:ggit_diff_foreach
 libgit2-glib-1.0.so.0:ggit_diff_format_email
 libgit2-glib-1.0.so.0:ggit_diff_format_email_flags_get_type
 libgit2-glib-1.0.so.0:ggit_diff_format_email_options_get_author
+libgit2-glib-1.0.so.0:ggit_diff_format_email_options_get_body
 libgit2-glib-1.0.so.0:ggit_diff_format_email_options_get_flags
 libgit2-glib-1.0.so.0:ggit_diff_format_email_options_get_id
 libgit2-glib-1.0.so.0:ggit_diff_format_email_options_get_patch_number
@@ -297,6 +298,7 @@ libgit2-glib-1.0.so.0:ggit_diff_format_email_options_get_total_patches
 libgit2-glib-1.0.so.0:ggit_diff_format_email_options_get_type
 libgit2-glib-1.0.so.0:ggit_diff_format_email_options_new
 libgit2-glib-1.0.so.0:ggit_diff_format_email_options_set_author
+libgit2-glib-1.0.so.0:ggit_diff_format_email_options_set_body
 libgit2-glib-1.0.so.0:ggit_diff_format_email_options_set_flags
 libgit2-glib-1.0.so.0:ggit_diff_format_email_options_set_id
 libgit2-glib-1.0.so.0:ggit_diff_format_email_options_set_patch_number
@@ -727,6 +729,7 @@ libgit2-glib-1.0.so.0:ggit_submodule_reload
 libgit2-glib-1.0.so.0:ggit_submodule_status_get_type
 libgit2-glib-1.0.so.0:ggit_submodule_sync
 libgit2-glib-1.0.so.0:ggit_submodule_unref
+libgit2-glib-1.0.so.0:ggit_submodule_update
 libgit2-glib-1.0.so.0:ggit_submodule_update_get_type
 libgit2-glib-1.0.so.0:ggit_submodule_update_options_get_checkout_options
 libgit2-glib-1.0.so.0:ggit_submodule_update_options_get_fetch_options
