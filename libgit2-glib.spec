@@ -4,7 +4,7 @@
 #
 Name     : libgit2-glib
 Version  : 0.27.8
-Release  : 3
+Release  : 4
 URL      : https://github.com/GNOME/libgit2-glib/archive/v0.27.8.tar.gz
 Source0  : https://github.com/GNOME/libgit2-glib/archive/v0.27.8.tar.gz
 Summary  : GLib wrapper for libgit2
