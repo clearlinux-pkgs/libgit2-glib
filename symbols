@@ -66,6 +66,7 @@ libgit2-glib-1.0.so.0:_ggit_tree_entry_wrap
 libgit2-glib-1.0.so.0:_ggit_tree_wrap
 libgit2-glib-1.0.so.0:ggit_annotated_commit_get_id
 libgit2-glib-1.0.so.0:ggit_annotated_commit_get_type
+libgit2-glib-1.0.so.0:ggit_annotated_commit_new_from_ref
 libgit2-glib-1.0.so.0:ggit_annotated_commit_ref
 libgit2-glib-1.0.so.0:ggit_annotated_commit_unref
 libgit2-glib-1.0.so.0:ggit_attribute_check_flags_get_type
@@ -120,6 +121,7 @@ libgit2-glib-1.0.so.0:ggit_branch_get_type
 libgit2-glib-1.0.so.0:ggit_branch_get_upstream
 libgit2-glib-1.0.so.0:ggit_branch_is_head
 libgit2-glib-1.0.so.0:ggit_branch_move
+libgit2-glib-1.0.so.0:ggit_branch_set_upstream
 libgit2-glib-1.0.so.0:ggit_branch_type_get_type
 libgit2-glib-1.0.so.0:ggit_checkout_notify_flags_get_type
 libgit2-glib-1.0.so.0:ggit_checkout_options_get_ancestor_label
@@ -487,9 +489,11 @@ libgit2-glib-1.0.so.0:ggit_proxy_options_get_type
 libgit2-glib-1.0.so.0:ggit_proxy_options_new
 libgit2-glib-1.0.so.0:ggit_proxy_type_get_type
 libgit2-glib-1.0.so.0:ggit_push_options_get_parallelism
+libgit2-glib-1.0.so.0:ggit_push_options_get_remote_callbacks
 libgit2-glib-1.0.so.0:ggit_push_options_get_type
 libgit2-glib-1.0.so.0:ggit_push_options_new
 libgit2-glib-1.0.so.0:ggit_push_options_set_parallelism
+libgit2-glib-1.0.so.0:ggit_push_options_set_remote_callbacks
 libgit2-glib-1.0.so.0:ggit_rebase_abort
 libgit2-glib-1.0.so.0:ggit_rebase_commit
 libgit2-glib-1.0.so.0:ggit_rebase_finish
@@ -582,7 +586,9 @@ libgit2-glib-1.0.so.0:ggit_remote_head_unref
 libgit2-glib-1.0.so.0:ggit_remote_list
 libgit2-glib-1.0.so.0:ggit_remote_new
 libgit2-glib-1.0.so.0:ggit_remote_new_anonymous
+libgit2-glib-1.0.so.0:ggit_remote_push
 libgit2-glib-1.0.so.0:ggit_remote_update_tips
+libgit2-glib-1.0.so.0:ggit_remote_upload
 libgit2-glib-1.0.so.0:ggit_repository_add_remote_fetch
 libgit2-glib-1.0.so.0:ggit_repository_add_remote_push
 libgit2-glib-1.0.so.0:ggit_repository_blame_file
@@ -647,6 +653,8 @@ libgit2-glib-1.0.so.0:ggit_repository_lookup_remote
 libgit2-glib-1.0.so.0:ggit_repository_lookup_submodule
 libgit2-glib-1.0.so.0:ggit_repository_lookup_tag
 libgit2-glib-1.0.so.0:ggit_repository_lookup_tree
+libgit2-glib-1.0.so.0:ggit_repository_merge
+libgit2-glib-1.0.so.0:ggit_repository_merge_base
 libgit2-glib-1.0.so.0:ggit_repository_merge_commits
 libgit2-glib-1.0.so.0:ggit_repository_merge_trees
 libgit2-glib-1.0.so.0:ggit_repository_note_foreach
