@@ -4,10 +4,10 @@
 #
 Name     : libgit2-glib
 Version  : 0.99.0.1
-Release  : 20
-URL      : https://github.com/GNOME/libgit2-glib/archive/v0.99.0.1/libgit2-glib-0.99.0.1.tar.gz
-Source0  : https://github.com/GNOME/libgit2-glib/archive/v0.99.0.1/libgit2-glib-0.99.0.1.tar.gz
-Summary  : GLib wrapper for libgit2
+Release  : 21
+URL      : https://download.gnome.org/sources/libgit2-glib/0.99/libgit2-glib-0.99.0.1.tar.xz
+Source0  : https://download.gnome.org/sources/libgit2-glib/0.99/libgit2-glib-0.99.0.1.tar.xz
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : LGPL-2.1
 Requires: libgit2-glib-data = %{version}-%{release}
@@ -43,7 +43,6 @@ Group: Development
 Requires: libgit2-glib-lib = %{version}-%{release}
 Requires: libgit2-glib-data = %{version}-%{release}
 Provides: libgit2-glib-devel = %{version}-%{release}
-Requires: libgit2-glib = %{version}-%{release}
 Requires: libgit2-glib = %{version}-%{release}
 
 %description dev
@@ -95,12 +94,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583167496
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1628201060
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
-export FCFLAGS="$CFLAGS -fno-lto "
-export FFLAGS="$CFLAGS -fno-lto "
+export FCFLAGS="$FFLAGS -fno-lto "
+export FFLAGS="$FFLAGS -fno-lto "
 export CXXFLAGS="$CXXFLAGS -fno-lto "
 CFLAGS="$CFLAGS" CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" meson --libdir=lib64 --prefix=/usr --buildtype=plain   builddir
 ninja -v -C builddir
