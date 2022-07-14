@@ -4,7 +4,7 @@
 #
 Name     : libgit2-glib
 Version  : 1.0.0.1
-Release  : 28
+Release  : 29
 URL      : https://download.gnome.org/sources/libgit2-glib/1.0/libgit2-glib-1.0.0.1.tar.xz
 Source0  : https://download.gnome.org/sources/libgit2-glib/1.0/libgit2-glib-1.0.0.1.tar.xz
 Summary  : No detailed summary available
