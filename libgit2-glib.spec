@@ -4,7 +4,7 @@
 #
 Name     : libgit2-glib
 Version  : 1.1.0
-Release  : 34
+Release  : 35
 URL      : https://download.gnome.org/sources/libgit2-glib/1.1/libgit2-glib-1.1.0.tar.xz
 Source0  : https://download.gnome.org/sources/libgit2-glib/1.1/libgit2-glib-1.1.0.tar.xz
 Summary  : No detailed summary available
@@ -94,7 +94,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1658183097
+export SOURCE_DATE_EPOCH=1664157313
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
@@ -105,7 +105,7 @@ ninja -v -C builddir
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/libgit2-glib
-cp %{_builddir}/libgit2-glib-1.1.0/COPYING %{buildroot}/usr/share/package-licenses/libgit2-glib/3704f4680301a60004b20f94e0b5b8c7ff1484a9
+cp %{_builddir}/libgit2-glib-%{version}/COPYING %{buildroot}/usr/share/package-licenses/libgit2-glib/3704f4680301a60004b20f94e0b5b8c7ff1484a9 || :
 DESTDIR=%{buildroot} ninja -C builddir install
 
 %files
