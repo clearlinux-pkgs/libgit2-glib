@@ -4,7 +4,7 @@
 #
 Name     : libgit2-glib
 Version  : 1.1.0
-Release  : 41
+Release  : 42
 URL      : https://download.gnome.org/sources/libgit2-glib/1.1/libgit2-glib-1.1.0.tar.xz
 Source0  : https://download.gnome.org/sources/libgit2-glib/1.1/libgit2-glib-1.1.0.tar.xz
 Summary  : No detailed summary available
