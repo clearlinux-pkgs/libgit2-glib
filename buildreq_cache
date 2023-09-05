@@ -1,4 +1,4 @@
-1.1.0
+1.2.0
 libgit2-dev
 libssh2-dev
 pkgconfig(libgit2)
